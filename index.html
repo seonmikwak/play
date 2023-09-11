@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 로그인</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .total {
+            display: block;
+        }
+        .logo{
+            width: 200px;
+            margin: 50px;
+        }
+        .input{
+            width: 400px;
+            height: 50px;
+            padding: 0.5em;
+            padding-left: 1em;
+            font-size: 15px;
+            border-width: 1px;
+            border-color: gainsboro;
+            border-style: solid;
+            letter-spacing: -1px;
+        }
+        .id{
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .pw{
+            border-top: none;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        .button{
+            width: 400px;
+            height: 50px;
+            margin: 40px 0px;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(4, 198, 91);
+            border-color: rgb(4, 198, 91);
+            border-radius: 8px;
+            border-style: solid;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post" autocomplete="off">
+        <div align="center">
+            <img class="total logo" src="./images/naverLogo.png">
+            <input class="total input id" type="text" name="memberId" placeholder="아이디">
+            <input class="total input pw" type="password" name="memberPw" placeholder="비밀번호">
+            <button class="total button" >로그인</button>
+        </div>
+    </form>
+</body>
+</html>
